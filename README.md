@@ -23,7 +23,7 @@ Alternatively, drag this folder into Netlify's manual deployment area. Include i
 - netlify.toml: deployment settings and response headers.
 
 ## Content sources
-The supplied CV and https://github.com/MuhammadAfridi1234 provide the content. Layout inspiration: https://mdryhanmunna.netlify.app/. The design and copy are original.
+The supplied CV and https://github.com/MuhammadAfridi1234 provide the content.
 
 Taxi Price Regression and Movie Database System are CV projects without verified repository links. LinkedIn follows the CV. The original downloadable CV includes its original contact and reference details.
 
