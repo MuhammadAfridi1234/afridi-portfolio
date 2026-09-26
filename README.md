@@ -16,16 +16,16 @@ Alternatively, drag this folder into Netlify's manual deployment area. Include i
 
 ## Files
 - index.html: content, projects, contact links.
-- style.css: responsive layout and cream/green design.
-- script.js: mobile navigation, reveal animation, scroll progress.
+- style.css: responsive layout and light teal design.
+- script.js: mobile navigation, project filtering, scroll progress.
 - assets/profile.png: the user's supplied replacement photo.
 - assets/AFRIDI-CV.docx: original CV download.
 - netlify.toml: deployment settings and response headers.
 
 ## Content sources
-The supplied CV and https://github.com/MuhammadAfridi1234 provide the content. Layout inspiration: https://shabbirbiforbusine.wixsite.com/portfolio. The design and copy are original.
+The supplied CV and https://github.com/MuhammadAfridi1234 provide the content. Layout inspiration: https://mdryhanmunna.netlify.app/. The design and copy are original.
 
 Taxi Price Regression and Movie Database System are CV projects without verified repository links. LinkedIn follows the CV. The original downloadable CV includes its original contact and reference details.
 
 ## Verification
-JavaScript syntax, internal anchors, unique HTML IDs, and local asset existence were checked. Browser visual and interaction QA requires a connected browser.
+JavaScript syntax, internal anchors, unique HTML IDs, and local asset existence were checked. Menu and filter logic checks passed. Visual browser QA could not run because no browser was connected.

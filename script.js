@@ -47,3 +47,16 @@ function updateProgress() {
 window.addEventListener('scroll', updateProgress, { passive: true });
 window.addEventListener('resize', updateProgress);
 updateProgress();
+
+const filterButtons = document.querySelectorAll('[data-filter]');
+const projectCards = document.querySelectorAll('[data-category]');
+filterButtons.forEach(button => button.addEventListener('click', () => {
+  const filter = button.dataset.filter;
+  filterButtons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+  let count = 0;
+  projectCards.forEach(card => {
+    card.hidden = filter !== 'all' && card.dataset.category !== filter;
+    if (!card.hidden) count++;
+  });
+  document.getElementById('projectCount').textContent = `${count} projects shown`;
+}));
