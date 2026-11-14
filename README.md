@@ -1,6 +1,6 @@
-# Md. Afridi — Portfolio
+# MD.AFRIDI — Portfolio
 
-Responsive personal portfolio built with HTML, CSS, and JavaScript. Includes the supplied portrait, downloadable CV, six selected projects, research, education, awards, and contact links. No build dependencies.
+Responsive personal portfolio built with HTML, CSS, and JavaScript. Includes the supplied portrait, downloadable CV, seven selected projects (including the Garipark capstone), three research projects, education, awards, and contact links. Content is based on the supplied AFRIDI-CV.docx. No build dependencies.
 
 ## Preview
 Open index.html in a browser or use VS Code Live Server.
